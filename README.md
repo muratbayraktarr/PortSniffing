@@ -20,11 +20,14 @@ This is a simple Java tool for port scanning and service identification. It allo
    git clone https://github.com/muratbayraktarr/port-sniffing.git
 
 2.   Navigate to the project directory:
+   
+     ```bash
    cd portsniffing
-3.   Compile and run the application:
+
+4.   Compile and run the application:
    mvn clean install
    java -jar target/portsniffing.jar
-4.   Follow the on-screen instructions to enter the IP address you want to scan.
+5.   Follow the on-screen instructions to enter the IP address you want to scan.
    
  Configuration  
   The maximum number of ports to scan is set in the runPortScan method of the PortSniffing class (nbrPortMaxToScan variable).
